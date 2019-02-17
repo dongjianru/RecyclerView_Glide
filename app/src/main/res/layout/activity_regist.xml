@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink"
+    android:orientation="vertical"
+    tools:context=".activity.RegistActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#621afc">
+
+        <TextView
+            android:id="@+id/return_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="＜"
+            android:textColor="#faf8f8"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="#faf8f8"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/num_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="手机号"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/pwd_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="密码"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/regist_regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="立即注册" />
+</LinearLayout>
